@@ -632,7 +632,7 @@ cite {
 .btn-edit-profile {
   background: #B8AA92;
   color: black;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -688,6 +688,18 @@ cite {
 .chart-title {
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.inscriptions-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  /* SCROLL */
+  max-height: 250px; 
+  overflow-y: auto;    
+  padding-right: 5px;  
 }
 
 .chart-placeholder {

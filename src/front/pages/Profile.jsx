@@ -116,6 +116,8 @@ export const Profile = () => {
                         <strong>Altura:</strong> {user.altura || "—"} cm
                     </p>
 
+                    <br />
+                    
                     <button
                         className="btn-edit-profile"
                         onClick={() => navigate("/edit-profile")}
